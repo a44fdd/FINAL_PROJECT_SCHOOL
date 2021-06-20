@@ -1,0 +1,76 @@
+.dark {
+  background-color: rgb(40, 44, 52);
+}
+
+#content {
+  background-color: rgb(40, 44, 52);
+  padding: 10px 5px ;
+  margin: 20px 5px 5px 10px;
+}
+
+div {
+  width: 230px;
+  height: 424px;
+  border: .5px solid white;
+  box-sizing: border-box;
+}
+
+.content {
+  background-color: black;
+  text-align: center;
+  animation-name: background-color-change;
+  animation-duration: 20s;
+  animation-iteration-count: infinite;
+
+}
+
+@keyframes background-color-change {
+  11%  {background-color:black;}
+  11% {background-color: black;}
+  11% {background-color: white;}
+  15% {background-color: red}
+  15% {background-color: red}
+  15% {background-color: red}
+  11% {background-color:white;}
+  
+}
+
+p { 
+  font-family: 'Roboto', sans-serif;
+  font-size: 15px;
+  font-weight: bold;
+  animation-name: font-color-change;
+  animation-duration: 20s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes font-color-change {
+  
+    11%  {color: black;}
+    11% {color: white;}
+    11% {color: red;}
+    15% {color: red}
+    15% {color: white}
+    15% {color: black}
+    11% {color:black;}   
+}
+img {
+  width: 260px;
+  height: 161px;
+}
+
+.brother {
+  width: 228px;
+  animation-name: invisibility;
+  animation-duration: 2.2s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes invisibility {
+  0% {opacity: 0.5;}
+  25% {opacity:1 ;}
+  25% {opacity:0.5;}
+  25% {opacity:0.2;}
+  25% {opacity:0.1;}
+}
+
