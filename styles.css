@@ -9,11 +9,12 @@
 }
 
 div {
-  width: 230px;
+  width: 225px;
   height: 424px;
   border: .5px solid white;
   box-sizing: border-box;
 }
+
 
 .content {
   background-color: black;
@@ -60,7 +61,7 @@ img {
 }
 
 .brother {
-  width: 228px;
+  width: 223px;
   animation-name: invisibility;
   animation-duration: 2.2s;
   animation-iteration-count: infinite;

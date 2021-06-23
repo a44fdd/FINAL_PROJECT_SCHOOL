@@ -1,0 +1,45 @@
+.dark {
+    background-color: rgb(40, 44, 52);
+    margin: 20px 5px 5px;
+    padding: 0px 10px 10px 5px;
+  }
+  
+  .content-text {
+    width: auto;
+    height: 290px;
+    padding: 10px;
+    color: rgb(232, 232, 236);
+  }
+
+  h1 {
+    font-family: 'Roboto', sans-serif;
+    font-style:oblique;
+    display: inline;
+  }
+
+  a {
+    color: rgb(180, 26, 47);
+    float: right
+  }
+
+  @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap');
+
+  .text {
+    height: 380px;
+    padding: 30px 25px;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-style: normal;
+    font-weight:400;
+    font-size: 19px;
+    color: rgb(232, 232, 236);
+    border: 2px solid whitesmoke;
+  }
+ 
+  /* This class fix the size of the  cover of the book*/
+  .book {
+    width: 180px;
+    height: 290px;
+    margin-left: 10px;
+    margin-right: 5px;
+    float: right;
+  }
